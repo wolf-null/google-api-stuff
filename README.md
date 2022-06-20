@@ -29,7 +29,7 @@ To use this, you'll need an account in Google Cloud Platform AND to create a ser
 
 ### NOTES ###
   - Spreadsheet ID is some sort of '1lSFT-Nqka-cXR3BtGxTrOPgA5ZAaafzd' thing one can find in the URL when the google sheet is opened in a browser
-  - A1 Notation (*e.g. A1:D20*) have form <sheetname>!<start_cell>:<end:cell> where <start_cell> consists of letters.... oh, c'mon, y'all know this stuff
+  - A1 Notation (*e.g. A1:D20*) have form sheet_name!start_cell:end_cell where <start_cell> consists of letters.... oh, c'mon, y'all know this stuff
   
 
 

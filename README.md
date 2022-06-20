@@ -16,11 +16,13 @@ I used mostly these things to figure out WTF is happening and HOWTO do such a si
 
 To use this, you'll need an account in Google Cloud Platform AND to create a service account bu following approximately these steps:
 
-1. Go to IAM & Admin ( *~somewhere here: https://console.cloud.google.com/iam-admin/serviceaccounts* )
-2. Then -> Service Accounts (at the left sidebar) and create a service account.
-3. Then press vertical three dots '...' at the most-right column (*actions*)
-4. it will rise a popup menu. Click manage keys -> Add key
-5. After adding a key download it
+0. Read the docs, maybe.
+1. Some configuration prerequisits. Go to APIs & Services (~ somewhere here https://console.cloud.google.com/apis/dashboard *), add some "Google Sheets API" and "Google Drive API", and probably something else (one can find it via search edit field)
+2. Go to IAM & Admin ( *~somewhere here: https://console.cloud.google.com/iam-admin/serviceaccounts * )
+3. Then -> Service Accounts (at the left sidebar) and create a service account.
+4. Then press vertical three dots '...' at the most-right column (*actions*)
+5. it will rise a popup menu. Click manage keys -> Add key
+6. After adding a key download it
 
 ### PYTHON REQUIREMENTS ###
 - Python 3.xx

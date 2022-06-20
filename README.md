@@ -8,6 +8,7 @@ One may use this to read, write and paint cells in Google Sheets via **Service A
 WARNING: It won't work with other authorization mechanisms (will require some modifications in connect() method
 
 ### SOURCES ###
+I used mostly these things to figure out WTF is happening and HOWTO do such a simple thing like editing cells
   - Official docs: https://developers.google.com/sheets/api/quickstart/python
   - Some stackoverflow shamanism: https://stackoverflow.com/questions/59727373/update-cell-background-color-for-google-spreadsheet-using-python
 
